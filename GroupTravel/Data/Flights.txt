@@ -1,0 +1,23 @@
+Boston,Seattle,08:10,09:00,120
+Boston,Seattle,10:00,11:30,140
+San Francisco,Seattle,08:30,10:00,110
+San Francisco,Seattle,09:30,10:30,130
+San Francisco,Seattle,10:30,11:30,100
+Los Angeles,Seattle,07:30,9:00,150
+Los Angeles,Seattle,08:00,13:00,140
+Chicago,Seattle,07:30,9:00,110
+Chicago,Seattle,08:30,9:30,120
+Chicago,Seattle,09:00,10:30,150
+Honolulu,Seattle,07:30,9:00,100
+Honolulu,Seattle,10:00,11:30,120
+Seattle,Boston,20:00,21:00,130
+Seattle,Boston,20:30,21:30,170
+Seattle,San Francisco,19:00,21:00,150
+Seattle,San Francisco,19:30,21:00,140
+Seattle,Los Angeles,19:00,20:00,160
+Seattle,Los Angeles,20:00,21:30,110
+Seattle,Chicago,18:30,20:30,130
+Seattle,Chicago,19:30,21:00,120
+Seattle,Chicago,20:00,22:00,150
+Seattle,Honolulu,20:30,21:30,140
+Seattle,Honolulu,21:00,22:00,110

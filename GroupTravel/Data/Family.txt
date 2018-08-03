@@ -1,0 +1,5 @@
+John,Boston
+Mary,San Francisco
+Dean,Los Angeles
+Sam,Chicago
+Bobby,Honolulu

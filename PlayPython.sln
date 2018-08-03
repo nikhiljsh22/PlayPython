@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PlayPython", "PlayPython\PlayPython.pyproj", "{E0D80051-BCE8-437D-9DCF-BF4D1FFDF644}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SearchEngine", "SearchEngine\SearchEngine.pyproj", "{0386D10F-29CA-4935-820A-196F8B2D5A7D}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "GroupTravel", "GroupTravel\GroupTravel.pyproj", "{CD27D314-A9F0-46D7-BC88-F28A7A4E5FE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0D80051-BCE8-437D-9DCF-BF4D1FFDF644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0D80051-BCE8-437D-9DCF-BF4D1FFDF644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0386D10F-29CA-4935-820A-196F8B2D5A7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0386D10F-29CA-4935-820A-196F8B2D5A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD27D314-A9F0-46D7-BC88-F28A7A4E5FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD27D314-A9F0-46D7-BC88-F28A7A4E5FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
