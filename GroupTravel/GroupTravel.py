@@ -25,7 +25,8 @@ class groupTravel:
     def calculateCost(self, solution):
         totalCost = 0
         lastArrivalAtDestination = 0
-        earlistDepartureFromDestination=24*60
+        firstDepartureFromDestination = 24*60
+        
         i = 0
         for person, city in self.familyMembers.items():
             outboundFlight = self.flights[(city,self.destination)][solution[i]]
@@ -40,10 +41,24 @@ class groupTravel:
 
             if(lastArrivalAtDestination < self.getMinutes(outboundFlight[1])):
                 lastArrivalAtDestination = self.getMinutes(outboundFlight[1])
-            if(earlistDepartureFromDestination > self.getMinutes(returnFlight[0])):
-                earlistDepartureFromDestination = self.getMinutes(returnFlight[0])
+            if(firstDepartureFromDestination > self.getMinutes(returnFlight[0])):
+                firstDepartureFromDestination = self.getMinutes(returnFlight[0])
+            i = i+2
 
-            x = 0
+        totalWait = 0
+        i = 0
+        for person, city in self.familyMembers.items():
+            outboundFlight = self.flights[(city,self.destination)][solution[i]]
+            returnFlight = self.flights[(self.destination, city)][solution[i+1]]
+            waitOutbound  = lastArrivalAtDestination - self.getMinutes(outboundFlight[1])
+            waitReturn  = self.getMinutes(returnFlight[0]) - firstDepartureFromDestination
+
+            totalWait += (waitOutbound + waitReturn)
+            i = i+2
+
+        totalCost += 0.5 * totalWait
+        return totalCost
+
 grp = groupTravel('Data\\Family.txt', 'Data\\Flights.txt', "Seattle")
 
-grp.calculateCost([1,0,1,1,0,1,1,0,1,1])
+print(grp.calculateCost([1,0,1,1,0,1,1,0,1,1]))
