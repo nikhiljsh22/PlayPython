@@ -9,6 +9,12 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SearchEngine", "SearchEngin
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "GroupTravel", "GroupTravel\GroupTravel.pyproj", "{CD27D314-A9F0-46D7-BC88-F28A7A4E5FE1}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DocumentFiltering", "DocumentFiltering\DocumentFiltering.pyproj", "{03EBCCA1-0658-4D62-9F83-5FD33615D97B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DecisionTree", "DecisionTree\DecisionTree.pyproj", "{819E9F8C-A3FD-4AED-8E30-66F7A7B96E30}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "KNN", "KNN\KNN.pyproj", "{7C2907AC-443E-44BB-9F27-3101B4CA5B75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,12 @@ Global
 		{0386D10F-29CA-4935-820A-196F8B2D5A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD27D314-A9F0-46D7-BC88-F28A7A4E5FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CD27D314-A9F0-46D7-BC88-F28A7A4E5FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03EBCCA1-0658-4D62-9F83-5FD33615D97B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03EBCCA1-0658-4D62-9F83-5FD33615D97B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{819E9F8C-A3FD-4AED-8E30-66F7A7B96E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{819E9F8C-A3FD-4AED-8E30-66F7A7B96E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C2907AC-443E-44BB-9F27-3101B4CA5B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C2907AC-443E-44BB-9F27-3101B4CA5B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
